@@ -30,9 +30,6 @@ void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
 		{"rotr", g_rotr},
 		{"pchar", g_pchar},
 		{"pstr", g_pstr},
-		{"queue", g_queue},
-		{"addqueue", g_addqueue},
-		{"stack", g_stack},
 		{NULL, NULL}
 	};
 

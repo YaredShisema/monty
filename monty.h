@@ -66,10 +66,6 @@ void g_rotl(stack_t **stack, unsigned int line_number);
 void g_pchar(stack_t **stack, unsigned int line_number);
 void g_rotr(stack_t **stack, unsigned int line_number);
 void g_pstr(stack_t **stack, unsigned int line_number);
-void g_addnode(stack_t **head, int n);
-void g_addqueue(stack_t **head, int n);
-void g_queue(stack_t **head, unsigned int counter);
-void g_stack(stack_t **head, unsigned int counter);
 
 void g_free(stack_t *stack);
 int _isdigit(char *str);
